@@ -89,7 +89,7 @@ while True:
     key = cv2.waitKey(1) & 0xFF
 
     # save the output to the streaming folder
-    cv2.imwrite("/home/pi/streaming_images/streaming_img.jpg", frame)
+    cv2.imwrite("/home/pi/2.S679-pi/streaming_images/streaming_img.jpg", frame)
 
 # do a bit of cleanup
 cv2.destroyAllWindows()
